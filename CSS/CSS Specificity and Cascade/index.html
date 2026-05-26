@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: aqua;
+        }
+
+        .cpurple{
+            color: purple;
+        }
+
+        .cred{
+            color: red;
+        }
+
+        .yellow{
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple">CSS specificity</h1>
+    </div>
+</body>
+</html>
+
+<!-- 
+The Cascade Algorithm:
+The cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element. 
+
+1. Position and order of appearance: the order in which your CSS rules appear
+2. Specificity: an algorithm that determines which CSS selector has the strongest match (inline > ID > class > element > universal)
+3. Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+4. Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+
+Specificity Hierarchy -
+
+Inline Style > ID Selector > Class/Attribute/Pseudo-class > Element Selector > Universal Selector -->
