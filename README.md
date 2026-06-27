@@ -1,6 +1,6 @@
-# 🚀 Web Development Learning Journey
+# Web-Development
 
-> A comprehensive collection of my web development learning path with practice code, mini-projects, and full-stack applications.
+This repository contains my web development learning journey, practice code, mini-projects, and frontend/full-stack projects.
 
 <div align="center">
 
@@ -9,11 +9,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-![GitHub repo size](https://img.shields.io/github/repo-size/RohitSutar1823/Web-Development?style=for-the-badge&color=blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/RohitSutar1823/Web-Development?style=for-the-badge&color=green)
-![GitHub License](https://img.shields.io/github/license/RohitSutar1823/Web-Development?style=for-the-badge&color=orange)
-![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 
 </div>
 
