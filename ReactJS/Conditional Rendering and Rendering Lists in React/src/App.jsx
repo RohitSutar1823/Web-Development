@@ -7,6 +7,21 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const [showbtn, setShowbtn] = useState(true)
+  const [todos, setTodos] = useState([
+    {
+      title: "Hey",
+      desc: "I am a good todo"
+    },
+    {
+      title: "Hey Another todo",
+      desc: "I am a good todo too"
+    },
+    {
+      title: "Hey I am grocery todo",
+      desc: "I am a good todo but I am grocery todo"
+    },
+
+  ])
 
   return (
     <>
@@ -32,6 +47,14 @@ function App() {
         >
           Count is {count}
         </button>
+        {todos.map(todo => {
+        // return <Todo key={todo.title} todo={todo}/>
+        return <div key={todo.title} className="m-4 border border-purple-400">
+
+          <div className="todo">{todo.title}</div>
+          <div className="todo">{todo.desc}</div>
+        </div>
+      })}
       </section>
 
       <div className="ticks"></div>
